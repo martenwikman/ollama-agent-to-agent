@@ -1,6 +1,5 @@
 import json
 import requests
-from datetime import datetime
 
 class ollama_client():
     def __init__(self, api_url, model):
